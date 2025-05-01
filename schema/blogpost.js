@@ -56,11 +56,11 @@ export default {
       type: 'string',
       options: {
         list: [
-          {title: 'Analytical Techniques', value: 'Analytical Techniques'},
-          {title: 'Sustainable Science', value: 'Sustainable Science'},
+          {title: 'Analytical Techniques', value: 'Environmental Sustainability'},
+          {title: 'Sustainable Science', value: 'Climate change'},
           {title: 'Research Methodology', value: 'Research Methodology'},
-          {title: 'Environmental Chemistry', value: 'Environmental Chemistry'},
-          {title: 'Green Chemistry', value: 'Green Chemistry'}
+          {title: 'Environmental Chemistry', value: 'Analytical and Environmental Chemistry'}
+          
         ]
       },
       validation: Rule => Rule.required()
