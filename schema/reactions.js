@@ -1,4 +1,4 @@
-// In your schema.js
+// schemas/reaction.js
 export default {
     name: 'reaction',
     type: 'document',
@@ -7,18 +7,20 @@ export default {
       {
         name: 'post',
         type: 'reference',
-        to: [{ type: 'blogPost' }]
+        to: [{ type: 'blogPost' }],
       },
       {
         name: 'type',
         type: 'string',
-        title: 'Type',
         options: {
-          list: [
-            { title: 'Like', value: 'like' },
-            { title: 'Dislike', value: 'dislike' }
-          ]
-        }
-      }
-    ]
-  }
+          list: ['like', 'dislike'],
+        },
+      },
+      {
+        name: 'createdAt',
+        type: 'datetime',
+        initialValue: () => new Date().toISOString(),
+      },
+    ],
+  };
+  

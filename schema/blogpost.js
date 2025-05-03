@@ -59,7 +59,8 @@ export default {
           {title: 'Analytical Techniques', value: 'Environmental Sustainability'},
           {title: 'Sustainable Science', value: 'Climate change'},
           {title: 'Research Methodology', value: 'Research Methodology'},
-          {title: 'Environmental Chemistry', value: 'Analytical and Environmental Chemistry'}
+          {title: 'Environmental Chemistry', value: 'Analytical and Environmental Chemistry'},
+          {title: 'Lifestyle', value: 'Lifestyle'}
           
         ]
       },
